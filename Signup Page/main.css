@@ -1,0 +1,100 @@
+:root {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+.parent {
+  display: flex;
+  position: relative;
+}
+
+div.picture {
+  width: 40vw;
+  height: 100vh;
+  background-image: url(./bg_image.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: relative;
+}
+
+div.picture h1 {
+  background: black;
+  opacity: 0.5;
+  text-align: center;
+  margin-top: 30vh;
+}
+
+div.right {
+  background: lavender;
+  width: 60vw;
+  padding-left: 32px;
+  padding-right: 32px;
+  padding-top: 32px;
+}
+
+div.form {
+  background: white;
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+
+form {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-left: 30px;
+  margin-top: 30px;
+  padding-left: 5px;
+}
+div.inputs {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  margin-top: 7px;
+  width: 50%;
+  padding-top: 15px;
+}
+
+input {
+  width: 65%;
+  height: 1.8em;
+}
+button {
+  margin-top: 16px;
+}
+
+div.submit-btn {
+  text-decoration: white;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+  margin-top: 2rem;
+}
+
+div.submit-btn input {
+  text-decoration: white;
+  text-decoration-color: blue;
+  background: linear-gradient(45deg, orange, lavender);
+  height: 2rem;
+  width: 80%;
+  border-radius: 8%;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+.brand-container {
+  width: 40vw;
+  height: 30vh;
+  background-color: black;
+  position: absolute;
+  opacity: 0.4;
+}
+
+.text-container {
+  margin: auto;
+}
+
+.brand-container span {
+  color: white;
+  font-size: large;
+}
